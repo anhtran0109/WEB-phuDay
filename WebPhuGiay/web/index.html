@@ -52,6 +52,9 @@
             padding: 8px 20px;
             box-shadow: 0 4px 15px rgba(185, 37, 33, 0.3);
             transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
         }
 
         .btn-cta:hover {
@@ -89,7 +92,6 @@
             pointer-events: none;
         }
 
-        /* Kiểu dáng cho Logo chính giữa banner */
         .banner-logo-container {
             margin-bottom: 15px;
         }
@@ -135,7 +137,7 @@
             letter-spacing: 1px;
         }
 
-        /* Các kiểu ảnh nội dung bên dưới */
+        /* Hình ảnh minh họa nội dung */
         .img-hero-landscape {
             width: 100%;
             height: 210px;
@@ -258,10 +260,10 @@
     <!-- 1. THANH ĐIỀU HƯỚNG -->
     <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="images/logoNew.jpg" alt="Logo Phủ Dầy" class="navbar-logo me-2">
-            <span>Phủ Dầy Heritage</span>
-        </a>
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logoNew.jpg" alt="Logo Phủ Dầy" class="navbar-logo me-2">
+                <span>Phủ Dầy Heritage</span>
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -277,7 +279,7 @@
                         <a class="nav-link" href="quantheditich.html">Quần thể di tích</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#nghi-le">Nghi lễ & Hầu đồng</a>
+                        <a class="nav-link" href="nghile.html">Nghi lễ & Hầu đồng</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#kinh-nghiem">Kinh nghiệm đi lễ</a>
@@ -299,7 +301,6 @@
         <!-- BANNER ĐỎ CÓ CHỨA LOGO Ở CHÍNH GIỮA -->
         <div class="custom-hero-banner mb-5 text-center">
             <div class="banner-logo-container">
-                <!-- Chỗ để bạn thả logo vào (đang dùng chung đường dẫn với logo navbar) -->
                 <img src="images/logoNew.jpg" alt="Logo Phủ Dầy" class="banner-main-logo">
             </div>
             <div class="mb-2">
@@ -310,7 +311,7 @@
         </div>
 
         <!-- Tiêu đề chung cho toàn cụm -->
-        <div class="text-center mb-5">
+        <div class="text-center mb-5" id="gioi-thieu">
             <div class="hero-title-wrapper">
                 <h2 class="hero-title">Toàn Cảnh Lễ Hội Phủ Dầy</h2>
             </div>
@@ -323,7 +324,7 @@
                 <div class="d-flex flex-column gap-3">
                     <img src="images/ThanhMauLieuHanh.jpg" alt="Thánh Mẫu Liễu Hạnh" class="img-hero-portrait img-fluid">
                     <img src="images/Phu-Day-4.jpg" alt="Toàn cảnh lễ hội Phủ Dầy Nam Định" class="img-hero-landscape img-fluid">
-                    <img src="images/muarong.jpg" alt="Mô tả ảnh 4" class="img-hero-portrait img-fluid">
+                    <img src="images/muarong.jpg" alt="Múa rồng tại lễ hội Phủ Dầy" class="img-hero-portrait img-fluid">
                 </div>
             </div>
 
@@ -339,7 +340,7 @@
 
                     <h5 class="sub-section-title"><i class="fa-solid fa-feather-pointed me-2"></i>Nguồn gốc của lễ hội</h5>
                     <p class="hero-description mb-3">
-                        Lễ hội Phủ Giầy được tổ chức nhằm tưởng nhớ Thánh Mẫu Liễu Hạnh, một nhân vật linh thiêng trong tín ngưỡng dân gian Việt Nam. Theo truyền thuyết, bà là vị tiên giáng trần, có công giúp đỡ nhân dân và được người dân tôn kính.
+                        Lễ hội Phủ Dầy được tổ chức nhằm tưởng nhớ Thánh Mẫu Liễu Hạnh, một nhân vật linh thiêng trong tín ngưỡng dân gian Việt Nam. Theo truyền thuyết, bà là vị tiên giáng trần, có công giúp đỡ nhân dân và được người dân tôn kính.
                     </p>
 
                     <div class="info-box mt-2 mb-3">
@@ -352,7 +353,7 @@
                         </ul>
                     </div>
 
-                    <div class="info-box mt-2">
+                    <div class="info-box mt-2" id="kinh-nghiem">
                         <h5><i class="fa-solid fa-map-location-dot me-2"></i>Địa điểm và thời gian tổ chức</h5>
                         <ul>
                             <li><strong>Địa điểm:</strong> Quần thể di tích Phủ Giầy, huyện Vụ Bản, tỉnh Nam Định.</li>
